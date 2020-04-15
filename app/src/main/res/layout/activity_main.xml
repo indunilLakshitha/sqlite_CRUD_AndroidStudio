@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="name"
+     android:id="@+id/txtName"
+     android:layout_marginTop="200dp"
+
+     />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mobile"
+        android:layout_below="@+id/txtName"
+        android:id="@+id/txtMobile"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:layout_below="@+id/txtMobile"
+        android:id="@+id/txtEmail"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="adress"
+        android:layout_below="@+id/txtEmail"
+        android:id="@+id/txtAdress"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CLICK"
+        android:layout_below="@+id/txtAdress"
+        android:id="@+id/btnUp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HISTORY"
+        android:layout_below="@+id/btnUp"
+        android:id="@+id/btnHis"
+        />
+   <Button
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="HISTORY ON ADAPTER VIEW"
+       android:layout_below="@+id/btnHis"
+       android:id="@+id/btnAdapterView"
+       />
+
+</RelativeLayout>
